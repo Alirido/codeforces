@@ -35,18 +35,6 @@ int main() {
 			}
 		}
 		printf("%s\n", isSI ? "YES" : "NO");
-
-		/*if (n==1 || n==2) {
-			if (sum == n-1 || sum >= n)
-				printf("YES\n");
-			else 
-				printf("NO\n");
-		} else {
-			if (sum >= n)
-				printf("YES\n");
-			else 
-				printf("NO\n");
-		}*/
 	}
 
 	return 0;
