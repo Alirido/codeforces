@@ -13,7 +13,7 @@ int main() {
 	while (t--) {
 		int x;
 		scanf("%d", &x);
-
+		printf("1 %d\n", x-1);
 	}
 
 	return 0;
