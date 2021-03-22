@@ -32,6 +32,8 @@ function getMaxLessThanK(n, k) {
         }
     }
     return max_value;
+
+    // return ((k | (k - 1)) > n) ? (k - 2) : (k - 1);
 }
 
 
