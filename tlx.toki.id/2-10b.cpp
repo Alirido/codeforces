@@ -16,6 +16,29 @@ int main() {
 	fast_io;
 	int n;
 	cin >> n;
+	priority_queue<int> pq;
+	while (n--) {
+		int o;
+		cin >> o;
+		if (o == 1) {
+			int x;
+			cin >> x;
+			pq.push(x);
+		} else if (o == 2) {
+			cout << pq.top() << endl;
+		} else if (o == 3) {
+			pq.pop();
+		}
+	}
+
+	return 0;
+}
+
+/*
+int main() {
+	fast_io;
+	int n;
+	cin >> n;
 	map<int, int> m;
 	while (n--) {
 		int o;
@@ -36,3 +59,4 @@ int main() {
 
 	return 0;
 }
+*/
